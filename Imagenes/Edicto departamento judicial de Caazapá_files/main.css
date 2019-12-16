@@ -1,0 +1,427 @@
+/* CREADO POR DANIEL MALDONADO
+   EMAIL: gamau6@gmail.com
+   ACTUALIZADO EL 15/10/2010
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: normal;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: black;
+background: white;
+}
+ol, ul {
+list-style: none;
+}
+
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: “”;
+}
+blockquote, q {
+quotes: “” “”;
+}
+
+#ver {
+    margin:auto;
+    padding-left:20px;
+    padding-top:5px;    
+    height:40px;
+    width:400px;
+}
+
+#ver ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+#ver ul li {
+	
+	float:left;
+	color:#CCC;
+	width: 210px;
+	height:30px;
+}
+
+#ver ul li a {
+	height:20px;
+	line-height:20px;
+	display:block;
+	padding: 1px;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5e5e5e;
+	
+}
+
+#ver ul li a:hover {
+	background:#CCC;
+	color:#FFF;
+}
+/*  boton izquierdo */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+ul li {
+	
+	float:left;
+	color:#CCC;
+	width: 160px;
+}
+
+ul li a {
+	height:26px;
+	line-height:26px;
+	display:block;
+	padding: 4px;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5e5e5e;
+	
+}
+
+ul li a:hover {
+	background:#CCC;
+	color:#FFF;
+}
+	
+/* fin boton izquierdo */
+
+
+
+
+/*                  TEXTO                   */
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height: 17px;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+}
+
+h6 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+
+/*               FIN TEXTO                  */
+
+
+
+
+
+
+
+.top {
+	background:url(../img/bg_top.jpg);
+	height:122px;
+}
+.contenedor_top {
+	position:relative;
+	width:960px;
+	height:auto;
+	margin:auto;
+}
+
+.logo {
+	float:left;
+	padding-top: 35px;
+	width:262px;
+	height:83px;
+}
+
+.news {
+	float:right;
+	width:172px;
+	height:72px;
+	padding-top: 35px;
+}
+
+
+
+
+.bg {
+	background:url(../img/bg.jpg) repeat-x;
+	height:auto;
+	
+}
+
+.fondo {
+	background:#f6f2e6;
+	height:auto;
+}
+
+.bg_contenido_auto {
+	background:#d5d5d5;
+	width:960px;
+	height:auto;
+	margin:auto;
+}
+
+
+.bg_contenido {
+	background:url(../img/bg_contenido.jpg);
+	width:960px;
+	border:groove 2px;
+	margin:auto;
+	 min-height: 800px;
+  	height: auto; 
+}
+
+.bg_contenido2 {
+	background:url(../img/bg_contenido.jpg);
+	width:960px;
+	border:groove 2px;
+	margin:auto;
+	 min-height: 1300px;
+  	height: auto; 
+}
+
+.bg_contenido_contacto {
+	background:url(../img/bg_contenido.jpg);
+	width:960px;
+	border:groove 2px;
+	margin:auto;
+	 min-height: 1300px;
+  	height: auto; 
+}
+
+
+.menu_izq {
+	float:left;
+	background:url(../img/avisos.jpg) no-repeat 10px top;
+	width:183px;
+	height:300px;
+	padding-right:20px;
+	padding-left:10px;
+	
+}
+
+.menu_izq_p {
+	padding-top:45px;
+	padding-left:10px;
+}
+
+
+/* noticias ...............................................................*/
+.noticias {
+	float:left;
+	width:501px;
+	border:groove 2px;
+	background:#fff;
+	height:auto;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px; 
+	
+}
+
+.noticias_exterior {
+	float:left;
+	width:501px;
+	background:#FFF;
+	height:auto;
+}
+.bg_noticias {
+	background:url(../img/bg_noticias.jpg);
+	width:484px;
+	height:132px;
+}
+
+.contenedor_bg_noticias {
+	padding: 7px 5px 15px 8px;
+}
+
+.img_portada {
+	float:left;
+	width:100px;
+	height:100px;
+	padding: 10px 3px 21px 8px;
+	
+}
+
+.publi_img_portada {
+	float:left;
+	width:200px;
+	height:200px;
+	padding: 10px 3px 21px 8px;
+}
+
+.texto_noticias{
+	float:left;
+	padding: 10px 15px 0 20px;
+}
+
+.texto_noticias2{
+	float:left;
+	padding: 10px 60px 0 20px;
+	width:260px;
+	height:105px;
+}
+
+.ver_mas {
+	float:right;
+}
+
+/* Fin noticias............................................................. */
+
+/* COTIZACIONES ............................................................*/
+
+.cotizaciones {
+	border: groove 2px;
+	width:204px;
+	height:180px;
+	font-size:15px;
+	background:#FFF;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.conti_pad {
+	position:relative;
+	width: 130px;
+	height:auto;
+	margin:auto;
+}
+
+/* FIN COTIZACIONES ..........................................................*/
+
+
+/* CLIMA .....................................................................*/
+
+.clima {
+	
+	border:groove 2px;
+	width:204px;
+	height:100px;
+	font-size:11px;	
+	background:#FFF;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px; 
+}
+
+.img_clima {
+	float:right;
+	width:auto;
+	height:auto;
+}
+
+
+/* FIN CLIMA ...................................................................*/
+
+
+.banner_izq {
+	float:left;
+	width:auto;
+	height:auto;
+	padding-top:40px;
+	
+}
+
+
+.banner_der {
+	float:right;
+	width:auto;
+	height:auto;
+	padding-right:5px;
+	
+}
+
+/* Fooooooteerr............................................................. */
+
+.footer {
+	background:url(../img/bg_footer.jpg);
+	height:200px;
+}
+
+.centrar_footer {
+	position:relative;
+	width:960px;
+	height:auto;
+	margin:auto;
+	padding-top:60px;
+}
+
+/* Fin footerr............................................................. */
+
+.bg_int {
+	background:url(../img/bg_int.jpg);
+	width:486px;
+	height:65px;
+}
+	
+.boton_ver {
+	float:right;
+	padding-top:40px;
+	padding-right:10px;
+
+}
+
+/*..............................NOSOTROS...................................*/
+
+.imagen_nos {
+	float:left;
+	padding: 15px 15px 15px 15px;
+	
+}
+
+.texto_nos {
+	float:right;
+	height:1190px;
+}
+
+.bg_contenido_nosotros {
+	background:url(../img/bg_contenido.jpg);
+	width:960px;
+	border:groove 2px;
+	margin:auto;
+	 min-height: 1220px;
+  	height: auto; 
+}
+
+/*............................FIN NOSOTROS.................................*/

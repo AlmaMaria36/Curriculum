@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+#menu ul li {
+	width:auto;
+	float:left;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding-top:7px;
+	padding-right:9px;
+	
+	
+}
+
+#menu ul li a {
+	
+	display:block;
+	padding: 4px;
+	text-decoration:none;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding-top:7px;
+	padding-right:9px;
+	
+}
+
+#menu ul li a:hover {
+	
+	background:#d5d5d5;
+	color:#530606;
+}
+
+.boton_top {
+	background:url(../img/bg_botonera.jpg);
+	height:43px;
+}
+
+.contenedor_menu {
+	position:relative;
+	width:960px;
+	height:auto;
+	margin:auto;
+}
+
+.menu_top {
+	
+	float:left;
+	padding-top:7px;
+	
+	
+}
+.buscar {
+	float:right;
+	padding-top: 7px;
+	width:auto;
+	height:auto;
+}
